@@ -106,4 +106,5 @@ body {
 .thanks-container {
   display: none;
   width: 100%;
+  text-align: center;
 }

@@ -16,11 +16,11 @@ let rateNumber = 0;
 const numberOne = () => {
   rateNumber = 1;
 
-  numberOneRate.classList.add(".switch-color-on-click");
-  numberTwoRate.classList.remove(".switch-color-on-click");
-  numberThreeRate.classList.remove(".switch-color-on-click");
-  numberFourRate.classList.remove(".switch-color-on-click");
-  numberFiveRate.classList.remove(".switch-color-on-click");
+  numberOneRate.classList.add("switch-color-on-click");
+  numberTwoRate.classList.remove("switch-color-on-click");
+  numberThreeRate.classList.remove("switch-color-on-click");
+  numberFourRate.classList.remove("switch-color-on-click");
+  numberFiveRate.classList.remove("switch-color-on-click");
 };
 
 numberOneRate.addEventListener("click", numberOne);
@@ -29,11 +29,11 @@ numberOneRate.addEventListener("click", numberOne);
 const numberTwo = () => {
   rateNumber = 2;
 
-  numberTwoRate.classList.add(".switch-color-on-click");
-  numberOneRate.classList.remove(".switch-color-on-click");
-  numberThreeRate.classList.remove(".switch-color-on-click");
-  numberFourRate.classList.remove(".switch-color-on-click");
-  numberFiveRate.classList.remove(".switch-color-on-click");
+  numberTwoRate.classList.add("switch-color-on-click");
+  numberOneRate.classList.remove("switch-color-on-click");
+  numberThreeRate.classList.remove("switch-color-on-click");
+  numberFourRate.classList.remove("switch-color-on-click");
+  numberFiveRate.classList.remove("switch-color-on-click");
 };
 
 numberTwoRate.addEventListener("click", numberTwo);
@@ -42,11 +42,11 @@ numberTwoRate.addEventListener("click", numberTwo);
 const numberThree = () => {
   rateNumber = 3;
 
-  numberThreeRate.classList.add(".switch-color-on-click");
-  numberOneRate.classList.remove(".switch-color-on-click");
-  numberTwoRate.classList.remove(".switch-color-on-click");
-  numberFourRate.classList.remove(".switch-color-on-click");
-  numberFiveRate.classList.remove(".switch-color-on-click");
+  numberThreeRate.classList.add("switch-color-on-click");
+  numberOneRate.classList.remove("switch-color-on-click");
+  numberTwoRate.classList.remove("switch-color-on-click");
+  numberFourRate.classList.remove("switch-color-on-click");
+  numberFiveRate.classList.remove("switch-color-on-click");
 };
 
 numberThreeRate.addEventListener("click", numberThree);
@@ -55,11 +55,11 @@ numberThreeRate.addEventListener("click", numberThree);
 const numberFour = () => {
   rateNumber = 4;
 
-  numberFourRate.classList.add(".switch-color-on-click");
-  numberOneRate.classList.remove(".switch-color-on-click");
-  numberTwoRate.classList.remove(".switch-color-on-click");
-  numberThreeRate.classList.remove(".switch-color-on-click");
-  numberFiveRate.classList.remove(".switch-color-on-click");
+  numberFourRate.classList.add("switch-color-on-click");
+  numberOneRate.classList.remove("switch-color-on-click");
+  numberTwoRate.classList.remove("switch-color-on-click");
+  numberThreeRate.classList.remove("switch-color-on-click");
+  numberFiveRate.classList.remove("switch-color-on-click");
 };
 
 numberFourRate.addEventListener("click", numberFour);
@@ -68,11 +68,11 @@ numberFourRate.addEventListener("click", numberFour);
 const numberFive = () => {
   rateNumber = 5;
 
-  numberFiveRate.classList.add(".switch-color-on-click");
-  numberOneRate.classList.remove(".switch-color-on-click");
-  numberTwoRate.classList.remove(".switch-color-on-click");
-  numberThreeRate.classList.remove(".switch-color-on-click");
-  numberFourRate.classList.remove(".switch-color-on-click");
+  numberFiveRate.classList.add("switch-color-on-click");
+  numberOneRate.classList.remove("switch-color-on-click");
+  numberTwoRate.classList.remove("switch-color-on-click");
+  numberThreeRate.classList.remove("switch-color-on-click");
+  numberFourRate.classList.remove("switch-color-on-click");
 };
 
 numberFiveRate.addEventListener("click", numberFive);

@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+}
+
+:root {
+  --orange-500: hsl(25, 97%, 53%);
+  --white: hsl(0, 100%, 100%);
+  --grey-500: hsl(217, 12%, 63%);
+  --gray-850: hsl(213, 18%, 19%);
+  --grey-900: hsl(213, 19%, 18%);
+  --grey-950: hsl(216, 12%, 8%);
+}
+
+/* Breakpoints: 
+- Mobile: 375px
+- Desktop: 1440px 
+*/
+
+body {
+  background-color: var(--grey-950);
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rating-container {
+  background-color: var(--grey-900);
+  border-radius: 16px;
+  border: none;
+  box-sizing: border-box;
+  text-align: left;
+  width: fit-content;
+  margin: 100px 10px 20px 10px;
+  padding: 26px 20px 26px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.icon-top {
+  border-radius: 100%;
+  padding: 12px;
+  background-color: var(--gray-850);
+}
+
+.rate-us {
+  font-size: 32px;
+  color: var(--white);
+}
+
+.rate-question {
+  line-height: 24px;
+  color: var(--grey-500);
+}
+
+.rate-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 420px;
+}
+
+.feedback-button {
+  border-radius: 100%;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  background-color: var(--gray-850);
+  color: var(--grey-500);
+  cursor: pointer;
+}
+
+.feedback-button:hover {
+  background-color: var(--orange-500);
+  color: var(--grey-950);
+}
+
+.switch-color-on-click {
+  background-color: var(--white);
+  color: var(--grey-950);
+}
+
+.register-feedback {
+  border-radius: 26px;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 14px;
+  background-color: var(--orange-500);
+  width: 100%;
+  cursor: pointer;
+}
+
+.register-feedback:hover {
+  background-color: var(--white);
+}
+
+.thanks-container {
+  display: none;
+  width: 100%;
+}

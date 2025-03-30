@@ -105,6 +105,7 @@ body {
 
 .thanks-container {
   display: none;
+<<<<<<< HEAD
   background-color: var(--grey-900);
   border-radius: 16px;
   border: none;
@@ -144,4 +145,8 @@ body {
   color: var(--grey-500);
   line-height: 22px;
   font-weight: 400;
+=======
+  width: 100%;
+  text-align: center;
+>>>>>>> 8079c03e45a5cfec59caa8336f21345ecf36f179
 }

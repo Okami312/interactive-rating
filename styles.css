@@ -9,7 +9,7 @@
   --orange-500: hsl(25, 97%, 53%);
   --white: hsl(0, 100%, 100%);
   --grey-500: hsl(217, 12%, 63%);
-  --gray-850: hsl(213, 18%, 19%);
+  --grey-850: hsl(213, 18%, 19%);
   --grey-900: hsl(213, 19%, 18%);
   --grey-950: hsl(216, 12%, 8%);
 }
@@ -43,7 +43,7 @@ body {
 .icon-top {
   border-radius: 100%;
   padding: 12px;
-  background-color: var(--gray-850);
+  background-color: var(--grey-850);
 }
 
 .rate-us {
@@ -73,7 +73,7 @@ body {
   font-weight: 600;
   width: 50px;
   height: 50px;
-  background-color: var(--gray-850);
+  background-color: var(--grey-850);
   color: var(--grey-500);
   cursor: pointer;
 }
@@ -105,5 +105,43 @@ body {
 
 .thanks-container {
   display: none;
-  width: 100%;
+  background-color: var(--grey-900);
+  border-radius: 16px;
+  border: none;
+  box-sizing: border-box;
+  text-align: center;
+  width: fit-content;
+  margin: 100px 10px 20px 10px;
+  padding: 26px 20px 26px 20px;
+}
+
+.thanks-container img {
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.thanks-text-rate {
+  border-radius: 26px;
+  border: none;
+  padding: 10px 12px 8px 12px;
+  font-weight: 600;
+  background-color: var(--grey-850);
+  color: var(--orange-500);
+  width: fit-content;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.thanks-container p:nth-of-type(2) {
+  font-size: 32px;
+  color: var(--white);
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.thanks-container p:nth-of-type(3) {
+  color: var(--grey-500);
+  line-height: 22px;
+  font-weight: 400;
 }

@@ -80,12 +80,14 @@ numberFiveRate.addEventListener("click", numberFive);
 // At submit  button
 const firstPage = document.querySelector(".rating-container");
 const nextPage = document.querySelector(".thanks-container");
+const rateSelected = document.querySelector(".rate-selected");
 const submitButton = document.querySelector(".register-feedback");
 
 const displayNextPage = () => {
   if (rateNumber !== 0) {
     firstPage.style.display = "none";
     nextPage.style.display = "block";
+    rateSelected.innerText = rateNumber;
   } else {
     alert("Please select a rate!");
   }
